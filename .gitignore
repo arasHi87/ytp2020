@@ -1,0 +1,5 @@
+*.pyc
+*.swp
+*.html
+data/*
+__pycache__

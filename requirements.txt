@@ -1,0 +1,4 @@
+pydicom==2.0.0
+scipy==1.5.2
+scikit-image==0.17.2
+plotly==4.10.0
