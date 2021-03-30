@@ -12,7 +12,7 @@ def GetConnectComponet(image):
     binary = cv2.dilate(binary, kernel, iterations=1)
 
     binary = cv2.bitwise_not(binary)
-    labeled_img, num = label(binary, neighbors=4, background=0, return_num=True)
+    labeled_img, num = label(binary, connectivity=1, background=0, return_num=True)
     
     max_label = 0
     max_num = 0
